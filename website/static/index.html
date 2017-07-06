@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>My Shop</title>
+    </head>
+
+    <body>
+        <h1>Welcome Hacker Hostel! </h1>
+        <ul>
+            {% for key, value in render_site.iteritems() %}
+              <li> {{value}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
